@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,3 +19,8 @@
 </body>
 
 </html>
+<h2>Hindamine</h2>
+<form action="">
+    Lisa punkti: <input type="text" name="punktid" >
+    <input type="submit" value="Hinda"><br>
+</form>
