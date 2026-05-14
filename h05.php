@@ -27,3 +27,4 @@ väljasta eraldi üks suvaline nimi (suvaline arv genereeritakse vastavalt massi
         echo "<li>$tydruk</li>";
         $counter+=1;
     }
+    
