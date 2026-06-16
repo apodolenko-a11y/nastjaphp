@@ -17,7 +17,7 @@ function forma() {
     return '
     <form action="" method="POST" class="w-50 mt-3">
         <div class="input-group mb-3">
-            <input type="email" class="form-control" placeholder="nimfa" required>
+            <input type="email" class="form-control" placeholder="teie email" required>
             <button class="btn btn-primary" type="submit">Liitu uudiskirjaga</button>
         </div>
     </form>';
@@ -59,7 +59,7 @@ echo chysla(2, 8, 3);
 // koosta funktsioon, mis leiab kasutaja antud arvudega ristkülikupindala
 function ploshcha($a, $b) {
     $s = $a * $b;
-    return "Ristküliku pindala külgedega $a ja $b on " . $s;
+    return "Ristküliku pindala külgedega $a ja $b on <br> " . $s;
 }
 
 echo ploshcha(5, 10);
@@ -83,7 +83,7 @@ function perevirka($kod) {
     $misjac = $kod[3] . $kod[4];
     $den = $kod[5] . $kod[6];
     
-    return "Sugu: " . $stat . "<br>Sünniaeg: " . $den . "." . $misjac . "." . $rik;
+    return "<br>Sugu: " . $stat . "<br>Sünniaeg: " . $den . "." . $misjac . "." . $rik;
 }
 
 echo perevirka("49403130123");
@@ -95,7 +95,7 @@ echo perevirka("49403130123");
 // koosta kood, mis lehele laadimisel valib suvaliselt igast massiivist elemendi ja koostab lause
 
 function fraza() {
-    $hto = array("Kass", "Programmeerija", "Õpetaja", "Robot");
+    $hto = array("<br> Kass", "Programmeerija", "Õpetaja", "Robot");
     $diia = array("kirjutab", "vaatab", "parandab", "loob");
     $shcho = array("keerulist koodi", "huvitavat raamatut", "uut veebilehte", "PHP ülesannet");
     $n1 = rand(0, 3);
